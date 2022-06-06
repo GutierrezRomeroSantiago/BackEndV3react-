@@ -1,32 +1,30 @@
-# # Proyecto Final
-Este proyecto se basa en una red social de películas en la que los usarios pueden interacturar buscando películas, interactuando entre ellos, calorando peliculas, hablaando por un chat en directo y más funciones
+# MovieMedia
+## Proyecto realizado por Santiago Gutiérrez Romer 2ºASIR
 
-## # Mejoras de esta versión:
+En este proyecto realizamos una red social de películas.
+En esta aplicación los clientes podrán crearse una cuenta, chatear entre ellos, hacer comentarios en peliculas, valorar películas, buscar películas concretas, ver trailers y ver que peliculas son tendencia y últimos estrenos.
 
-### ## Nueva librería de estilos
-En principio comence usando bootstrap en este proyecto pero investigando por internet descubrí que la librería de estilos por excelencia en REACT es **MUI (Material-UI)** por lo que he implementado esta librería en el proyecto y todas las mejoras visuales que se han hecho han sido a partir de la misma.
+## Desarrollado utilizando la librería de REACT
+Uno de los objetivos principales de este proyecto era aprender a utilizar la librería para desarrollo front-end de REACT por lo que todo el front-end ha sido construido mendiante esta herramienta.
 
-### ## Chat en directo
-En esta versión del proyecto hemos implementado un chat en directo el cual permite a los usuarios en tiempo real y actualizandose de forma contínua, la mayor novedad que contiene este chat en directo es que ha sido diseñado mediante las **bases de datos en tiempo real de firebase**.
+## Rest API
+En este proyecto utilizamos dos REST-API, una de ellas construida en node.js, typescript y mongoDB (usuarios, comentarios, valoraciones...), la segunda es una API rest pública sobre películas que nos permite hacer consultas para obtener códigos de youtube para ver trailers, descripciones de películas, títulos, géneros etc...
 
-------------
+## Bootstrap y MUI core
+A modo de librerías visuales hemos utilizado bootstrap y MUIcore las cuales nos han sido muy útiles para importar componentes e importar estilos.
 
-**Firebase Realtime Database Es Una Base De Datos Nosql Alojada En La Nube Que Te Permite Almacenar Y Sincronizar Datos Entre Tus Usuarios En Tiempo Real**
+## Paquetes NPM
+En este proyecto se utilizan una gran variedad de paquetes NPM entre ellos universal-cookies, axios o reactPlayer.
 
-### ## Sistema de comentarios y valoraciones de películas
+##  Cookies
+Este proyecto crea cookies para la gestión de usuarios.
 
-Otro mejora implementada ha sido el sistema de comentarios y rating de películas, mediante este los usuarios pueden comentar las películas y ponerles una valoración que va entre las 1 y 5 estrellas.
+## Lenguajes de progamación
+Javascript(Front-end)
+Typescript(Back-end)
 
-------------
-Para acceder a este sistema tendremos que estar logeados y después pinchar en una película cualquiera, en la parte inferior de la pantalla veremos el formulario con el campo de texto y las estrellas que nos permitirá valorar y comentar. Una vez hecho el submit el comentario será desplegado abajo del formulario
+## URL de despliegue de la aplicación
+Desplegado en VERCEL:
+https://proyecto-front-vf-peliculas-react.vercel.app/
 
-
-### ## Sistema de gestión de usarios completado (registro de nuevos usuarios, avatar....)
-En la anterior versión dejamos a medias el sistema de login, para esta versión esta completamente terminado, habiéndose añadido un sistema de registro, un avatar auto generado para cada usuario (en avatar se genera con la primera letra del nombre de usuario) y y un botón para hacer log-out.
-
-
-URL despliegue:
-https://front-end-reactv3.vercel.app/
-
-URL back end:
-https://apirestmoviex.herokuapp.com/
+#####Proyecto realizado por Santiago Gutiérrez Romero alumno 2ºASIR I.E.S. Punta del Verde
